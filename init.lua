@@ -18,8 +18,9 @@ require "user.indentline"
 require "user.alpha"
 require "user.whichkey"
 require "user.autocommands"
-vim.cmd[[colorscheme nord]]
-vim.cmd[[set tw=80]]
-vim.cmd[[set backspace=indent,eol,start]]
-vim.cmd[[hi MatchParen ctermbg=blue guibg=lightblue]]
-
+vim.cmd "colorscheme nord"
+vim.cmd "set tw=80"
+vim.cmd "set backspace=indent,eol,start"
+vim.cmd "hi MatchParen ctermbg=blue guibg=lightblue"
+-- turns htmldjango filetype into html
+vim.cmd "au BufNewFile,BufRead *.html set filetype=html"
