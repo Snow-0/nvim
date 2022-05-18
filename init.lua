@@ -23,4 +23,4 @@ vim.cmd "set tw=80"
 vim.cmd "set backspace=indent,eol,start"
 vim.cmd "hi MatchParen ctermbg=blue guibg=lightblue"
 -- turns htmldjango filetype into html
-vim.cmd "au BufNewFile,BufRead *.html set filetype=html"
+-- vim.cmd "au BufNewFile,BufRead *.html set filetype=html"
